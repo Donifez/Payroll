@@ -72,18 +72,18 @@ class stageOne extends Component {
         </div>
 
 
-        <div className="col-4">
+        <div className="col-4 next">
           <input type="text" className="form-control" placeholder="country"/>
         </div>
-        <div className="col-4">
+        <div className="col-4 next">
           <input type="text" className="form-control" placeholder=" number of staff"/>
           
         </div>
-        <div className="col-4">
+        <div className="col-4 next">
         <input type="text" class="form-control" id="inputPassword4" placeholder="no of working days in a month"/>
           
         </div>
-        <div className="col-6 select ">
+        <div className="col-6 select next ">
         <select >
   <option value="volvo">Saturday</option>
   <option value="saab">Sunday</option>
@@ -95,12 +95,12 @@ class stageOne extends Component {
   
 </select>
 </div>
-<div className="col-6 select ">
+<div className="col-6 select next ">
 <p className="check"><input className="col-4 check "  type="checkbox" name="vehicle" value="Bike"/> Set day as default (optional)</p>
           
         </div>
 
-        <div className="col-12 file ">
+        <div className="col-12 file next ">
         <h6 className="logo">Select  logo:</h6>
    <input className="file" type="file" name="myFile"/>
   <input  className="file" type="submit"/>
@@ -122,15 +122,15 @@ class stageOne extends Component {
         <input type="date" class="form-control" id="inputPassword4" placeholder="Expiry date"/>
           
         </div>
-        <div className="col-6 ">
+        <div className="col-6 next ">
         <input type="number" class="form-control" id="inputPassword4" placeholder="CVV"/>
           
         </div>
-        <div className="col-6 ">
+        <div className="col-6 next ">
         <input type="number" class="form-control" id="inputPassword4" placeholder="amount"/>
           
         </div>
-        <div className="col-12 pin ">
+        <div className="col-12 pin next">
         <input  className="col-12 pin" type="number" class="form-control" id="inputPassword4" placeholder="PIN"/>
           
         </div>

@@ -99,7 +99,9 @@ select{
   color:black;
   text-align: center;
 }
-
+.next{
+  margin-top:2%;
+}
 
  /* form */
  

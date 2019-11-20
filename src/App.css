@@ -73,18 +73,32 @@ padding:5%;
    margin-top:10%;
  }
  .user{
-   color:red;
+   color:black;
    text-align: center;
+   margin-top:5%;
  }
 
+.select{
+
+ font-size:10px;
+}
 select{
-  height:40%;
+  height:100%;
   width: 100%;
- 
 }
 
-
-
+.file{
+ font-size: 1rem;
+ color:black;
+}
+.check{
+  color:black;
+  font-size:1rem;
+}
+.logo,.pin{
+  color:black;
+  text-align: center;
+}
 
 
  /* form */
